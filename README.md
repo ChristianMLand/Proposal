@@ -140,6 +140,7 @@ Replace `create-react-app` and `MERN` stack with `Next.js`
 
 - MERN Deployment ( 4 / 4 ) <details>
     <summary>Expand</summary>
+
     - *Should be changed to Next.js Deployment 
     - needs to be redone to match `next.js` project structure. overall process is similar when deploying with AWS though
     - Should add optional chapter for deployment with vercel (which is much simpler and only requires a couple button clicks)

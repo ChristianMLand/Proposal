@@ -1,5 +1,7 @@
 ## Proposed Change
 Replace `create-react-app` and `MERN` stack with `Next.js`
+
+[Example project in new proposed project structure](https://github.com/ChristianMLand/authors_with_auth) 
 ## Considerations (Pros and Cons)
 - Amount of work to modify track to match this new structure (detailed below)
 - The React devs themselves helped work on the newest version of Next.js (v13) and support it as the recommended way to use react on their official documentation.

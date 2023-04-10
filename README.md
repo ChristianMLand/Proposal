@@ -153,7 +153,7 @@ Replace `create-react-app` and `MERN` stack with `Next.js`
 - At least 5 chapters can be completely removed without any loss of content
 - Only about 8 chapters need a complete re-write
 - About 30 chapters need some form of modification (most are extremely minor changes in wording while content remains the same)
-- Around 6 videos need to be redone
+- Around 6 videos need to be redone ( not including solution videos )
 - and only 3 assignments need any form of modification (very minor changes)
 - Depending on how deep we want to explore Next.js, anywhere from 0-7 new chapters could be added
 - Roughly 35% of the stack needs to be modified in some way, however many of these changes are minor

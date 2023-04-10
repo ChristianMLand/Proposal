@@ -11,11 +11,13 @@ Replace `create-react-app` and `MERN` stack with `Next.js`
 - Next.js is extremely popular in the industry and a much more modern approach to full stack with react 
     - it can technically still be considered a MERN stack, since still using react, express, node, and mongoDB as express is used internally by next.js
 ## Chapters and Assignments That Need Modification
-- React unit ( 15 / 56 )
+- React Unit (15 / 56) <details>
+    <summary>Expand</summary>
+
     - Intro to React ( 3 / 8 )
         - create-react-app **`Replaced`**
             - replaced with `create-next-app`
-        - folder structure **`Replaced`**
+        * folder structure **`Replaced`**
             - replaced with next.js folder structure
         - using JSX **`Modified`**
             - should show functional components in the example instead of class components, nothing Next.js specific
@@ -50,19 +52,34 @@ Replace `create-react-app` and `MERN` stack with `Next.js`
             - replaced with  next.js `useRouter` hook
         - useNavigate **`Removed`**
             - `useRouter` hook handles both params, and navigation
-- Express Unit *Should be renamed to Next.js APIs ( 3 / 8 )
+
+</details>
+
+- Express Unit  ( 3 / 8 )<details>
+    <summary>Expand</summary>
+
+    - *Should be renamed to Next.js APIs
     - Express + Nodemon **`Removed`**
     - Routing **`Replaced`**
         - should be replaced with discussion on Next.js pages/api folder
     - folder structure **`Removed`**
-- MongoDB Unit ( 1 / 12 )
+</details>
+
+- MongoDB Unit ( 1 / 12 ) <details>
+    <summary>Expand</summary>
+
     - MongoDB ( 0 / 7 )
         - no changes necessary
     - Mongoose ( 1 / 5 ) 
         - Express + mongoose **`Modified`**
             - The code is mostly the same, but should be in relation to next.js now instead of express
         - might be worth covering virtuals, statics, and pre/post middleware here so we can introduce login/reg in fullstack
-- Full Stack MERN unit *should be renamed to Full Stack Next.js ( 9 / 21 ) 
+</details>
+
+- Full Stack MERN unit ( 9 / 21 ) <details>
+    <summary>Expand</summary>
+
+    - *should be renamed to Full Stack Next.js  
     - Full Stack MERN *should be renamed to Full Stack Next.js ( 7 / 11 )
         - Introduction **`Modified`**
             - should be modified to match next.js structure
@@ -86,14 +103,23 @@ Replace `create-react-app` and `MERN` stack with `Next.js`
         - Additional (optional) chapters that don't exist should be made on topics such as Server Side rendering, and SWR
         - Auth could be moved here as well into a couple chapters, as it can be done **much** simpler now with `iron-session`
             - `iron-session` still relies on the same concepts as JWTs so they are still using cookies on every request to have a stateless session, just done in a much simpler to use way
-- Sockets ( 3 / 5 )
+</details>
+
+- Sockets ( 3 / 5 ) <details>
+    <summary>Expand</summary>
+
     - Sockets on the server **`Modified`**
         - code needs to be adjusted to match next.js structure, some other minor changes as well
     - Sockets on the Client **`Modified`**
         - code is similar but needs to be adjusted to match next.js structure
     - creating the handshake **assignment** **`Modified`**
         - only need to change requirements checklist, rest is fine
-- MERN Auth *instead of being its own unit, should be simplified and put in with Advanced Next.js ( 7 / 10 )
+</details>
+
+- MERN Auth ( 7 / 10 ) <details>
+    <summary>Expand</summary>
+
+    - *instead of being its own unit, should be simplified and put in with Advanced Next.js 
     - User Model **`Modified`**
         - mostly the same, but code should be refactored, and login validation static method should be added
     - Registration **`Modified`**
@@ -110,9 +136,15 @@ Replace `create-react-app` and `MERN` stack with `Next.js`
         - needs a rewrite to match iron-sesion structure, and move login validations to static method in model
     - Authorization and Middleware **`Replaced`**
         - should be replaced to match `iron-session`/next.js structure)
-- MERN Deployment *Should be changed to Next.js Deployment ( 4 / 4)
+</details>
+
+- MERN Deployment ( 4 / 4 ) <details>
+    <summary>Expand</summary>
+    - *Should be changed to Next.js Deployment 
     - needs to be redone to match `next.js` project structure. overall process is similar when deploying with AWS though
     - Should add optional chapter for deployment with vercel (which is much simpler and only requires a couple button clicks)
+</details>
+
 ## Conclusion
 - **TOTAL** ( 42 / 116 ) chapters impacted
     - At least 5 chapters can be completely removed without any loss of content

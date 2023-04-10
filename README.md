@@ -147,16 +147,16 @@ Replace `create-react-app` and `MERN` stack with `Next.js`
 </details>
 
 ## Conclusion
-- **TOTAL** ( 42 / 116 ) chapters impacted
-    - At least 5 chapters can be completely removed without any loss of content
-    - Only about 8 chapters need a complete re-write
-    - About 30 chapters need some form of modification (most are extremely minor changes in wording while content remains the same)
-    - Around 6 videos need to be redone
-    - and only 3 assignments need any form of modification (very minor changes)
-    - Depending on how deep we want to explore Next.js, anywhere from 0-7 new chapters could be added
-    - Roughly 35% of the stack needs to be modified in some way, however many of these changes are minor
-    - Making these changes will better prepare students for working with React in the industry
-    - use es6 syntax consistently for front end and backend rather than having it only for react and needing to use things like `require` for the backend will hopefully prevent confusion
-    - project structure and setup is greatly simplified and consistent for frontend and backend
-    - could have Auth be a requirement before the exam now as well to better match our other stacks
-    - deployment is made incredibly simpler if using vercel
+### **TOTAL** ( 42 / 116 ) chapters impacted
+- At least 5 chapters can be completely removed without any loss of content
+- Only about 8 chapters need a complete re-write
+- About 30 chapters need some form of modification (most are extremely minor changes in wording while content remains the same)
+- Around 6 videos need to be redone
+- and only 3 assignments need any form of modification (very minor changes)
+- Depending on how deep we want to explore Next.js, anywhere from 0-7 new chapters could be added
+- Roughly 35% of the stack needs to be modified in some way, however many of these changes are minor
+- Making these changes will better prepare students for working with React in the industry
+- use es6 syntax consistently for front end and backend rather than having it only for react and needing to use things like `require` for the backend will hopefully prevent confusion
+- project structure and setup is greatly simplified and consistent for frontend and backend
+- could have Auth be a requirement before the exam now as well to better match our other stacks
+- deployment is made incredibly simpler if using vercel

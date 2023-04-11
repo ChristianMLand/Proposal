@@ -1,5 +1,8 @@
-## Proposed Change
-Replace `create-react-app` and `MERN` stack with `Next.js`
+## Proposed Changes
+- Replace `create-react-app` and `MERN` stack with `Next.js`
+- Introduce login/registration prior to exam (and have it be required for exams) to be more consistent with other stacks
+- Remove class components entirely (just a link to where more information can be found on them in the docs is enough)
+- Introduce async/await much earlier (suggest in the APIs section of the React unit)
 
 [Example Full Stack Next.js project with new login/reg](https://github.com/ChristianMLand/authors_with_auth) 
 

@@ -1,6 +1,7 @@
 ## Proposed Changes
 - Replace `create-react-app` and `MERN` stack with `Next.js`
-- Introduce login/registration prior to exam (and have it be required for exams) to be more consistent with other stacks
+- Redesign login/registration to use `iron-session` instead of `jwt`
+    - eventually introduce login/registration prior to exam (and have it be required for exams) to be more consistent with other stack
 - Remove class components entirely (just a link to where more information can be found on them in the docs is enough)
 - Introduce async/await much earlier (suggest in the APIs section of the React unit)
 

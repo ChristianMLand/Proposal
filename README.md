@@ -4,7 +4,7 @@
     - eventually introduce login/registration prior to exam (and have it be required for exams) to be more consistent with other stack
 - Remove class components entirely (just a link to where more information can be found on them in the docs is enough)
 - Introduce async/await much earlier (suggest in the APIs section of the React unit)
-
+## Eample Projects
 [Example Full Stack Next.js project with new login/reg](https://github.com/ChristianMLand/authors_with_auth) 
 
 [Example Full Stack MERN project using new login/reg](https://github.com/ChristianMLand/mern_auth_new/tree/main)
